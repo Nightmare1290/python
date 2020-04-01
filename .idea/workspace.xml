@@ -3,12 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="831a0542-b2f3-4603-86ae-9413a68de2b3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Micrositio/Micrositio/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Micrositio/Micrositio/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Micrositio/crud/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Micrositio/crud/migrations/__init__.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Micrositio/crud/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Micrositio/crud/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Micrositio/crud/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/Micrositio/crud/serializers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Micrositio/crud/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Micrositio/crud/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Micrositio/crud/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Micrositio/crud/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

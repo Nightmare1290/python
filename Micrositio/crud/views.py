@@ -7,6 +7,17 @@ from .serializers import PromocionSerializer, ConcursoSerializar, UserSerializer
 from .models import promocion, concurso, user
 
 
+def user_login(request):
+    if request.method == "POST":
+        username = request.POST['nombre']
+        password = request.POST['contraseña']
+        return user.objects.filter(user__nombre = username, user__contraseña = password)
+    else:
+        content = {'message' : 'Usuario no encontrado'}
+        return Response(content)
+
+
+
 class UserList(generics.ListCreateAPIView):
     queryset = user.objects.all()
     serializer_class = UserSerializer
