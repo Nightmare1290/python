@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="831a0542-b2f3-4603-86ae-9413a68de2b3" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Micrositio/Micrositio/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Micrositio/Micrositio/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Micrositio/crud/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Micrositio/crud/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Micrositio/crud/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Micrositio/crud/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Micrositio/crud/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/Micrositio/crud/serializers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Micrositio/crud/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Micrositio/crud/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Micrositio/crud/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Micrositio/crud/views.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1X2ibg0pn23X9xqL5st6IUZges0" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="831a0542-b2f3-4603-86ae-9413a68de2b3" name="Default Changelist" comment="" />
+      <created>1580250662299</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1580250662299</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="550" y="25" key="#Inspections" timestamp="1585682833824">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="550" y="25" key="#Inspections/0.0.1366.728@0.0.1366.728" timestamp="1585682833824" />
+    <state x="442" y="168" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1580337206883">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="442" y="168" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1580337206883" />
+    <state x="463" y="120" key="FileChooserDialogImpl" timestamp="1580336593562">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="120" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1580336593562" />
+    <state x="368" y="6" key="SettingsEditor" timestamp="1585674221051">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="368" y="6" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1585674221051" />
+    <state x="384" y="189" key="com.intellij.ide.util.TipDialog" timestamp="1585357562758">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="384" y="189" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1585357562758" />
+  </component>
+</project>
