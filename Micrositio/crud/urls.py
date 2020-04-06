@@ -10,7 +10,9 @@ urlpatterns = [
     path('concurso', views.ConcursoList().as_view()),
     path('concurso/<int:pk>', views.ConcursoDetail().as_view()),
     path('^promocion/(?<cartera>.+)/$', views.PromocionListFillter.as_view()),
-    path('^concurso/(?<cartera>.+)/$', views.ConcursoListFillter.as_view())
+    path('^concurso/(?<cartera>.+)/$', views.ConcursoListFillter.as_view()),
+    path(r'^uploadpromocion$', 'upload_image_promocion_view', name='upload_image_promocion_view'),
+    path(r'^uploadconcurso$', 'upload_image_concurso_view', name='upload_image_concurso_view')
 
 ]
 

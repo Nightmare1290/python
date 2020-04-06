@@ -5,6 +5,9 @@ from rest_framework.response import Response
 from rest_framework.permissions import IsAuthenticated
 from .serializers import PromocionSerializer, ConcursoSerializar, UserSerializer
 from .models import promocion, concurso, user
+from django.contrib.auth.decorators import login_required
+from django.shortcuts import render_to_response, RequestContext
+from .forms import UploadConcursoImageForm, UploadPromocionImageForm
 
 
 def user_login(request):
@@ -63,3 +66,24 @@ class ConcursoDetail(generics.RetrieveUpdateDestroyAPIView):
     serializer_class = ConcursoSerializar
 
 
+def upload_image_concurso_view(request):
+    if request.method == 'POST':
+        form = UploadConcursoImageForm(request.POST, request.FILES)
+        if form.is_valid():
+            form.save()
+            message = "Image uploaded succesfully"
+        else:
+            form = UploadConcursoImageForm()
+
+        return render_to_response(context_instance = RequestContext(request))
+
+def upload_image_promocion_view(request):
+    if request.method == 'POST':
+        form = UploadPromocionImageForm(request.POST, request.FILES)
+        if form.is_valid():
+            form.save()
+            message = "Image uploaded succesfully"
+        else:
+            form =  UploadPromocionImageForm()
+
+        return render_to_response(context_instance = RequestContext(request))
