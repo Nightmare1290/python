@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Excel</title>
+</head>
+
+<body style="margin-top: 30px; margin-left: 30px;">
+    <form action="{% url 'index' %}" method="POST" enctype="multipart/form-data">
+        {% csrf_token %}
+        <input type="file" name="excel_file" title="Upload Excel File" required
+            style="border: 1px solid black; padding: 5px;">
+        <p></p>
+        <input type="submit" value="Upload"
+            style="border: 1px solid green; padding: 5px; border-radius: 2px; cursor: pointer;">
+    </form>
+    <p></p>
+    <hr>
+    {% for row in excel_data %}
+        {% for cell in row %}
+            {{cell}}&nbsp;&nbsp;
+        {% endfor %}
+        <br>
+    {% endfor %}
+</body>
+
+</html>

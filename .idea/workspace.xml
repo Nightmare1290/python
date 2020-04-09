@@ -3,9 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="831a0542-b2f3-4603-86ae-9413a68de2b3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Micrositio/Micrositio/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Micrositio/Micrositio/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Micrositio/Micrositio/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Micrositio/Micrositio/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Micrositio/crud/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Micrositio/crud/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Micrositio/crud/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Micrositio/crud/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Micrositio/crud/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Micrositio/crud/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -32,11 +31,16 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Micrositio/crud" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\drago\Downloads\prueba_python\Micrositio\crud" />
+      <recent name="C:\Users\drago\Downloads\prueba_python\Micrositio" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\drago\Downloads\prueba_python\Micrositio" />
       <recent name="C:\Users\drago\Downloads\prueba_python\Micrositio\media" />
     </key>
   </component>
@@ -62,10 +66,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="442" y="168" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1580337206883" />
-    <state x="463" y="120" key="FileChooserDialogImpl" timestamp="1580336593562">
+    <state x="463" y="120" key="FileChooserDialogImpl" timestamp="1586218209683">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="120" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1580336593562" />
+    <state x="463" y="120" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1586218209683" />
     <state x="368" y="6" key="SettingsEditor" timestamp="1585674221051">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
